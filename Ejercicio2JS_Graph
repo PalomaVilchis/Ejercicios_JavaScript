@@ -1,0 +1,23 @@
+//Con los datos obtenidos con el sensor infrarojo de temperatura, grafica (T vs t)
+
+var xArray = [inserta el valor de tiempo];
+var yArray = [inserva los valores de temperatura];
+
+//agraga un espacio para insertar el nombre de quien tomo los datos
+
+var data = [{
+  x: xArray,
+  y: yArray,
+  mode: "lines",  //tipo de grafica, lineas
+  type: "scatter" //tipo de grafica de distribución
+}];
+
+//ajusta los rangos deacuerdo a las mediciones obtenidas
+var layout = {
+  xaxis: {range: [xo, xf], title: "minutos"},
+  yaxis: {range: [yo, yf], title: "grados celsius"},
+  title: "Temperatura vs Tiempo"
+};
+
+// mustra la gráfica en tu webserver
+Plotly.newPlot("myPlot", data, layout);
