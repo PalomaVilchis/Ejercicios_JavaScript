@@ -1,7 +1,7 @@
 //Con los datos obtenidos con el sensor infrarojo de temperatura, grafica (T vs t)
 
 var xArray = [inserta el valor de tiempo];
-var yArray = [inserva los valores de temperatura];
+var yArray = [inserta los valores de temperatura];
 
 //agraga un espacio para insertar el nombre de quien tomo los datos
 
