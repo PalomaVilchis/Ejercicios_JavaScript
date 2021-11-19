@@ -1,4 +1,4 @@
-
+// se ejecuta en la RB
 var Gpio = require(‘onoff’).Gpio; 
 var led = new Gpio(17, ‘out’);     
 
