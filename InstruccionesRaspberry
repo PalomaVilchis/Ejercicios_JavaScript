@@ -10,7 +10,7 @@ Para instalar Node.js en Raspberry, realiza los siguientes pasos
   - Crea una carpeta:
     mkdir ledjs
   - Luego ve a la carpeta con la instrucción
-    cd lejs
+    cd ledjs
   - Dentro de esa carpeta se instala el paquete "onoff" que nos permite trabajar con los puertos GPIO de las Raspberry:
     npm install onoff
   - Crea un archivo que se llame:
