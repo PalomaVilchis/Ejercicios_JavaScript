@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Index</title>
+</head>
+
+<body>
+  <h1>Método POST</h1>
+  <form method="post" action="respuesta">
+    <label>Nombre: <input type="text" name="nombre"></label>
+    <input type="submit" value="Submit">
+  </form>
+  <!DOCTYPE html>
+  <html>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <body>
+  
+  <div id="myPlot" style="width:100%;max-width:700px"></div>
+  
+  <script>
+  var xArray = ["tusdatos"];
+  var yArray = ["tusdatos"];
+  
+  // Define Data
+  var data = [{
+    x:xArray,
+    y:yArray,
+    mode:"markers"
+  }];
+  
+  // Define Layout
+  var layout = {
+    xaxis: {range: [40, 160], title: "Square Meters"},
+    yaxis: {range: [5, 16], title: "Price in Millions"},  
+    title: "House Prices vs. Size"
+  };
+  
+  // Display using Plotly
+  Plotly.newPlot("myPlot", data, layout);
+  </script>
+  
+  </body>
+  </html>
+
+
+
+</body>
+
+</html>
